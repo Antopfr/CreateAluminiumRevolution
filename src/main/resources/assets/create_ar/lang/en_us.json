@@ -1,0 +1,16 @@
+{
+  "itemGroup.create_ar": "Create: Aluminum Revolution",
+
+  "block.create_ar.aluminum_block": "Block of Aluminum",
+  "block.create_ar.bauxite_block": "Block of Bauxite",
+  "block.create_ar.aluminum_casing": "Aluminum Casing",
+  "block.create_ar.uranium_ore": "Uranium Ore",
+  "block.create_ar.uranium_block": "Block of Uranium",
+
+  "item.create_ar.aluminum_ingot": "Aluminum Ingot",
+  "item.create_ar.aluminum_nugget": "Aluminum Nugget",
+  "item.create_ar.aluminum_sheet": "Aluminum Sheet",
+  "item.create_ar.crushed_bauxite": "Crushed Bauxite",
+  "item.create_ar.uranium": "Uranium",
+  "item.create_ar.enriched_uranium": "Enriched Uranium"
+}

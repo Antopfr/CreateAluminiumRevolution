@@ -1,0 +1,7 @@
+{
+	"parent": "create:block/encased_shaft/item",
+	"textures": {
+		"casing": "create_ar:block/aluminum_casing",
+		"opening": "create_ar:block/aluminum_gearbox"
+	}
+}

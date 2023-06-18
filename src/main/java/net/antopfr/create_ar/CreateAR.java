@@ -1,10 +1,12 @@
 package net.antopfr.create_ar;
 
-import com.simibubi.create.AllBlocks;
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.tterrag.registrate.Registrate;
+import com.tterrag.registrate.util.nullness.NonNullSupplier;
 import net.antopfr.create_ar.registry.ARBlocks;
 import net.antopfr.create_ar.registry.ARItems;
-import net.antopfr.create_ar.registry.ARTileEntities;
+import net.antopfr.create_ar.registry.ARBlockEntityTypes;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -35,12 +37,14 @@ public class CreateAR {
 
         CreateAR.REGISTRATE.registerEventListeners(eventBus);
 
-
         ARBlocks.register();
-        ARItems.register(eventBus);
-        ARTileEntities.register();
+        ARItems.register();
+        ARBlockEntityTypes.register();
     }
 
+    public static ResourceLocation asResource(String path) {
+        return new ResourceLocation(MOD_ID, path);
+    }
     private void setup(final FMLCommonSetupEvent event) {}
 
     public static CreateRegistrate registrate() {
